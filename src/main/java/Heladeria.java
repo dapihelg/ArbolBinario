@@ -61,6 +61,7 @@ public static class Arbol{
             return null;
         }
         if(nodo.ind == x){
+            System.out.println("Sabor: " + nodo.ind + " - " + nodo.dato);
             return nodo;
         }
         if(x < nodo.ind){
